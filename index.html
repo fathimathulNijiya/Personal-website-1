@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="bg-info">
+    <header class="bg-info" style="position:fixed; width:100%; z-index: 1;">
         <div class="row text-white ">
             <div class="col-md-6 col-9 p-3 pl-5">
                 <h2>Fathimathul Nijiya</h2>
@@ -28,16 +28,13 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link text-white" aria-current="page" href="#Home-section">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Link</a>
+                                    <a class="nav-link text-white" href="#qualification-section">Achievements</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Contacts</a>
+                                    <a class="nav-link text-white" href="#contact-section">Contacts</a>
                                 </li>
                             </ul>
 
@@ -49,6 +46,112 @@
 
 
     </header>
+    <section id="Home-section" style="padding-top: 7em;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="rounded-circle img-fluid" src="Images/IMG-20211204-WA0165 (3).jpg" alt="">
+                </div>
+                <div class="col-md-6 text-centre " style="padding-top: 10em;">
+
+                    <h2 class="">Freelance FrontEnd Developer </h2>
+                    <p class=" font-italic"> ......don't just sell websites,create websites that SELL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-4 bg-light" id="qualification-section">
+        <div class="container">
+            <h3 class="text-center"> Qualification and Achievments</h3>
+            <div class="row ">
+                <div class="col-md-4 pt-3">
+                    <div class="card text-center">
+                        <img class="rounded mx-auto d-block"
+                            src="https://www.targetadmission.com/img/logos/9293630855.jpg" alt="Card image cap"
+                            style="height:5em;width: 11em;margin-top: 2em;">
+                        <div class="card-body">
+                            <h4 class="card-text">B-Tech</h4>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">MESCE,Calicut University</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 pt-3">
+                    <div class="card text-center">
+                        <img class="rounded mx-auto d-block" src="https://abhisjk.github.io/cossroads/img/logo.png"
+                            alt="Card image cap" style="height:5em;width: 11em;margin-top: 2em;">
+                        <div class="card-body">
+                            <h4 class="card-text">100K CODING CHALLENGE</h4>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">CrossRoads</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-3">
+                    <div class="card text-center ">
+                        <img class="rounded mx-auto d-block "
+                            src="https://yt3.ggpht.com/dNXHD2XSx1tKug2Qxmf7D20U3ctr35Um4eVZkJHtjv9OBwCb2WqFu3iWg5Mgg31KfnKWo3zthvs=s176-c-k-c0x00ffffff-no-rj"
+                            alt="Card image cap" style="height:5em;width: 5em;margin-top: 2em; ">
+                        <div class="card-body">
+                            <h4 class="card-text">WEB DESIGN CHALLENGE</h4>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">Brototype</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="contact-section">
+        <div class="container">
+            <h2 class="text-center">Contact Me </h2>
+            <div class="row ">
+                <div class="col-md-12">
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-md-6 ">
+                                <label for="exampleFormControlInput1">First name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Firstname">
+                            </div>
+                            <div class="form-group col-md-6 ">
+                                <label for="exampleFormControlInput1">Second name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Secondname">
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput2">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput3">Mobile number</label>
+                            <input type="tel" class="form-control" id="exampleFormControlInput3" placeholder="Mobile">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary text-center" style="width:100%">Submit</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-info text-white">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <h6>copyrights</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -59,6 +162,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3afae0dcfb.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
